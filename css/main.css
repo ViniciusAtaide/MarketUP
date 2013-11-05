@@ -1,0 +1,52 @@
+body {
+  background-color: #f2f2f2;
+  font: Arial; }
+
+.middle, #header {
+  margin: 0 auto;
+  width: 960px; }
+
+#header {
+  margin: 45px 0 0 0;
+  font-weight: 600;
+  font-size: 14px; }
+  #header .nav {
+    margin: 0;
+    padding: 0;
+    height: 65px; }
+    #header .nav li {
+      text-align: center;
+      width: 100px;
+      height: inherit;
+      float: left; }
+      #header .nav li:last-child {
+        width: 190px; }
+        #header .nav li:last-child a {
+          color: #ff8127; }
+      #header .nav li a {
+        display: block;
+        height: inherit;
+        width: inherit;
+        line-height: 70px;
+        transition: background-color 0.5s ease;
+        color: #7b8a90;
+        text-decoration: none; }
+        #header .nav li a img {
+          float: right;
+          margin-top: 12px; }
+        #header .nav li a:hover {
+          background-color: #e7e7e7; }
+
+.headerTop {
+  background: url("../img/ft-header.png") no-repeat right white;
+  height: 120px; }
+  .headerTop img {
+    margin: 45px 40px; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0;
+  padding: 0; }

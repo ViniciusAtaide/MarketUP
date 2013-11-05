@@ -1,0 +1,54 @@
+$cinza: #7b8a90
+$bg: #f2f2f2
+
+body
+  background-color: $bg
+  font: Arial
+.middle
+  margin: 0 auto
+  width: 960px
+#header 
+  margin: 45px 0 0 0
+  @extend .middle
+  font-weight: 600
+  font-size: 14px
+  .nav
+    margin: 0
+    padding: 0
+    height: 65px
+    li
+      text-align: center
+      width: 100px
+      height: inherit
+      float: left
+      &:last-child
+        width: 190px
+        a
+          color: #ff8127
+      a
+        display: block
+        height: inherit
+        width: inherit
+        line-height: 70px
+        transition: background-color .5s ease
+        color: $cinza
+        text-decoration: none
+        img
+          float: right
+          margin-top: 12px
+        &:hover
+          background-color: $bg - 11
+
+          
+.headerTop
+  background: url("../img/ft-header.png") no-repeat right white
+  height: 120px
+  img
+    margin: 45px 40px
+body
+  margin: 0
+  padding: 0
+
+p
+  margin: 0
+  padding: 0
